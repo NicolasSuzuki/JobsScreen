@@ -4,7 +4,7 @@ const Header = () => {
    const margem = {margin:'20px'}
      return(
         <div style={{ display:"flex", margin:'20px'}}>
-        <h1 style={margem}>Quadrado</h1>
+        <h1 style={margem}>Logo GSW</h1>
         <input style={margem}></input>
             <div style={margem}>
                Links

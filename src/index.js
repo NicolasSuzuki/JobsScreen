@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Route, BrowserRouter as Router } from 'react-router-dom'
+import App from './App'
+import Welcome from './Componets/Welcome'
+import Header from './Componets/header'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Header />
+    <Router>
+      <div>
+        <Route path="/" exact component={Welcome} />
+        <Route path="/vagas" component={App} />
+      </div>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,12 +1,11 @@
 import React from 'react';
-import Body from './Componets/Home/body';
-
+import Body from './Home/body'
 
 
 export default () => {
   return (
     <>
-      <Body/>
+      <Body />
     </>
     );
 }
