@@ -6,6 +6,10 @@ In this project you can:
 - See a list of employees
 - Register an Job
 
+## To Do
+- Fix folders names
+- Use i18n
+
 ## Running
 ### Install the dependences 
 `npm install`
